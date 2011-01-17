@@ -142,7 +142,6 @@ ngx_module_t  ngx_http_redis_module = {
 
 
 static ngx_str_t  ngx_http_redis_key = ngx_string("redis_key");
-static ngx_str_t  ngx_http_redis_db  = ngx_string("redis_db");
 
 
 #define NGX_HTTP_REDIS_END   (sizeof(ngx_http_redis_end) - 1)
